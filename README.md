@@ -64,20 +64,12 @@ Você saberá que o ambiente está ativo quando o nome do ambiente (`env`) apare
 
 2. Aguarde enquanto as bibliotecas são instaladas. Quando o processo terminar, todas as dependências estarão configuradas no ambiente virtual.
 
-3. No projeto foi instalado 
+3. No projeto foi utilizado a biblioteca jupyterlab para utilizar um ambiente jupyter, porém é opcional, ou seja, não é necessário para o funcionamento do projeto. Caso queira utilizar também, rode o seguinte código na linha de comando:
+```bash
+   pip install jupyterlab
+   ```
 ---
 
-## Executando o Projeto  
-
-Certifique-se de que o ambiente virtual está ativado antes de executar qualquer script do projeto.  
-
-- Ative o ambiente conforme mostrado acima.
-- Execute o script desejado, por exemplo:  
-  ```bash
-  python main.py
-  ```
-
----
 
 ## Desativando o Ambiente Virtual  
 
@@ -87,24 +79,3 @@ deactivate
 ```
 
 Isso retornará você ao ambiente global do Python.
-
----
-
-## Problemas Comuns  
-
-1. **O comando `python` chama uma versão diferente do Python**  
-   Use `python3` em vez de `python` nos comandos.
-
-2. **Erro ao instalar dependências**  
-   Certifique-se de estar no diretório correto e com o ambiente virtual ativado antes de executar `pip install`.
-
-3. **Permissões negadas no Linux/macOS**  
-   Use `python3 -m venv env` em vez de `python -m venv env` se você tem múltiplas versões do Python instaladas.
-
----  
-
-Agora você está pronto para usar o projeto! 🎉
-
---- 
-
-Se precisar de mais ajuda, sinta-se à vontade para perguntar. 😊
